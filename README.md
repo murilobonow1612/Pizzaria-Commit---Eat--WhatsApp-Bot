@@ -10,10 +10,10 @@ O bot ignora mensagens enviadas por outros grupos e por ele mesmo, garantindo um
 Envio de informações de pagamento: O bot envia informações de PIX para o pagamento dos pedidos.  
 
 Tecnologias
-Node.js: Ambiente de execução para JavaScript no servidor.
-whatsapp-web.js: Biblioteca para automação de WhatsApp Web.
-Puppeteer: Usado para controle do navegador, necessário para interação com o WhatsApp Web.
-QRCode-terminal: Para gerar e exibir o código QR para autenticação no WhatsApp Web.
+1- Node.js: Ambiente de execução para JavaScript no servidor;
+2- whatsapp-web.js: Biblioteca para automação de WhatsApp Web;
+3- Puppeteer: Usado para controle do navegador, necessário para interação com o WhatsApp Web;
+4- QRCode-terminal: Para gerar e exibir o código QR para autenticação no WhatsApp Web.
 
 Como usar
 Instale as dependências:  npm install
