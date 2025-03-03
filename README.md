@@ -1,4 +1,4 @@
-# wwebjs-bot
+# Whatsapp-bot da Pizzaria Commit & Eat
 Este projeto é um chatbot desenvolvido para automatizar o atendimento de pedidos em uma pizzaria via WhatsApp. Usando a biblioteca whatsapp-web.js e o poder do Node.js, o bot interage com os clientes, oferecendo uma experiência de pedidos de pizza através de mensagens no WhatsApp. Ele permite que os usuários escolham entre diferentes sabores de pizza, recebam o cardápio e finalizem seus pedidos de forma simples e eficiente. Funcionalidades      Atendimento automatizado: O bot envia uma saudação e oferece um menu com opções de pedido.
  
 Escolha de sabores de pizza: 
