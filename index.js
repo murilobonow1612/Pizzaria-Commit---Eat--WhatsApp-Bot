@@ -1,6 +1,8 @@
 const { Client, LocalAuth } = require("whatsapp-web.js");
 const qrcode = require("qrcode-terminal");
 
+const tempo_ativo = Math.floor(Date.now() / 1000);
+
 const client = new Client({
   authStrategy: new LocalAuth(),
   puppeteer: {
@@ -25,8 +27,8 @@ client.initialize();
 client.on("message_create", async (message) => {
   const userId = message.from;
 
-  // 🚨 Ignorar mensagens enviadas pelo próprio bot
-  if (message.id.fromMe || userId.includes('@g.us')) {
+  // 🚨 Ignorar algumas mensagens enviadas
+  if (message.id.fromMe || userId.includes('@g.us') || message.timestamp < tempo_ativo) {
     console.log(`[IGNORADO]: ${message.body}`);
     return;
   }

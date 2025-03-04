@@ -1,3 +1,3 @@
-2025/03/03-10:43:36.013 3f84 Reusing MANIFEST C:\Users\lilob\dev\wwebjs-bot\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
-2025/03/03-10:43:36.017 3f84 Recovering log #17
-2025/03/03-10:43:36.019 3f84 Reusing old log C:\Users\lilob\dev\wwebjs-bot\.wwebjs_auth\session\Default\Local Storage\leveldb/000017.log 
+2025/03/04-08:00:37.352 1370 Reusing MANIFEST C:\Users\lilob\dev\wwebjs-bot\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2025/03/04-08:00:37.356 1370 Recovering log #20
+2025/03/04-08:00:37.358 1370 Reusing old log C:\Users\lilob\dev\wwebjs-bot\.wwebjs_auth\session\Default\Local Storage\leveldb/000020.log 
